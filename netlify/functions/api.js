@@ -21,7 +21,7 @@ router.get("/main", async (req, res) => {
         return {
             statusCode: 200,
             headers: {
-                "Access-Control-Allow-Origin": "https://mmfoods.netlify.app",
+                "Access-Control-Allow-Origin": "*",
                 "Access-Control-Allow-Methods": "GET, POST, OPTIONS",
                 "Access-Control-Allow-Headers": "Content-Type",
             },
